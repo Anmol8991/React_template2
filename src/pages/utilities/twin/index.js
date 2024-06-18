@@ -1,0 +1,11 @@
+export { default as UploadData } from "./earnedPoints/UploadData";
+export { default as Activity } from "./earnedPoints/Activity";
+export { default as Dashboard } from "./Dashboard";
+export { default as ProfilePage } from "./Profile/ProfilePage";
+export { default as ActivityTransactionList } from "./earnedPoints/ActivityTransactionList";
+export { default as EditProfile } from "./Profile/EditProfile";
+export { default as UploadDetail } from "./UploadDetail";
+export { default as DataUploads } from "./DataUploads";
+export { default as LearningActivity } from "./activity/LearningActivity";
+export { default as ReferActivity } from "./activity/ReferActivity";
+export { default as EventActivity } from "./activity/EventActivity";

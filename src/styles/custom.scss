@@ -1,0 +1,168 @@
+// animation nav
+.animation-nav-view-user {
+	li {
+		position: relative;
+
+		a {
+			&:hover,
+			&.active {
+				color: whitesmoke;
+				background-color: blueviolet !important;
+				&::before {
+					width: 100%;
+					left: 0;
+				}
+			}
+		}
+	}
+}
+
+.hover-active-btn-view-user {
+	&:hover {
+		color: whitesmoke;
+		background-color: #3577f1 !important;
+		&::before {
+			width: 100%;
+			left: 0;
+		}
+	}
+}
+
+// .bg-light {
+//   background-color: #1e2124 !important;
+// }
+// .form-error {
+//   display: none;
+// }
+// .formInput:invalid[focused="true"] ~ .form-error {
+//   display: block;
+// }
+
+.py-25 {
+	padding-top: 0.75rem !important;
+	padding-bottom: 0.75rem !important;
+}
+
+.formImageContainer {
+	height: 140px;
+	width: 140px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.formImageSmallContainer {
+	height: 100px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.imgLabel {
+	background-color: #1e2124c8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	opacity: 0;
+	transition: all 200ms ease;
+}
+.formImageContainer:hover .imgLabel {
+	opacity: 1;
+}
+
+[data-layout-mode="dark"] {
+	.MuiButtonBase-root,
+	.MuiPaginationItem-root,
+	.MuiPaginationItem-page {
+		color: white !important;
+	}
+}
+
+.MuiPaginationItem-icon {
+	color: #808080 !important;
+}
+
+.table-filters {
+	position: absolute;
+	right: 0;
+}
+
+.white-bg {
+	background-color: var(--vz-header-bg);
+}
+.ndfHFb-c4YZDc-Wrql6b {
+	display: none !important;
+}
+.font-weight-600 {
+	font-weight: 600 !important;
+}
+@media screen and (max-width: 600px) {
+	.table-filters {
+		position: relative;
+		left: 10px;
+		justify-content: space-between;
+		margin-bottom: 10px;
+	}
+}
+
+// Chat animated dots
+
+.spinner {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 5px 8px;
+}
+
+.spinner > div {
+	width: 8px;
+	height: 8px;
+	background-color: #212529;
+	border-radius: 100%;
+	display: inline-block;
+	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+	0%,
+	80%,
+	100% {
+		-webkit-transform: scale(0);
+	}
+	40% {
+		-webkit-transform: scale(1);
+	}
+}
+
+@keyframes sk-bouncedelay {
+	0%,
+	80%,
+	100% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	}
+	40% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+.react-pdf__Document {
+	height: 100% !important;
+}
+
+// sc-ieZDjg drgEKC"
